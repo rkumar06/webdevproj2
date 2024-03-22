@@ -1,8 +1,15 @@
 import React from "react"
+import Polaroid from "./Polaroid"
+import './style.css'
+
 
 function Members(){
+    const memberInfo = [{Name: "test 1", Desc: "bio", Img: "img"}, {Name: "test 1", Desc: "bio", Img: "img"}, {Name: "test 1", Desc: "bio", Img: "img"}]
     return (
-        <h1>members</h1>
+        <Polaroid 
+            name = "name"
+            bio = "bio"
+            img = "img"/>
     )
 }
 
