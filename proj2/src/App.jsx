@@ -13,11 +13,15 @@ function App() {
 
   return (
     <Router>
-      <nav>
+      <nav className= 'nav'>
+        <div className = 'nav--text'>
         <Link to="/home">Home </Link>
-        <Link to="/about"> About</Link>
-        <Link to="/videos">Videos </Link>
-        <Link to="/members"> Members</Link>
+        <nav className = "nav-links">
+          <Link to="/about"> About</Link>
+          <Link to="/videos">Videos </Link>
+          <Link to="/members"> Members</Link>
+        </nav>
+        </div>
       </nav>
       <Routes>
         <Route path="/about" element={<AboutUs />} />

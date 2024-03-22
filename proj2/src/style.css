@@ -1,0 +1,25 @@
+* {
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #243A50;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjusts the spacing */
+    padding: 15px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+}
