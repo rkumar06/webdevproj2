@@ -1,11 +1,11 @@
 * {
-    font-family: 'Open Sans';
     margin: 0;
     padding: 0;
+    background-color: #243A50;
 }
 
 .nav {
-    background-color: #243A50;
+    font-family: 'Open Sans';
     display: flex;
     align-items: center;
     justify-content: space-between; /* Adjusts the spacing */
@@ -23,3 +23,26 @@
     display: flex;
     justify-content: flex-end;
 }
+
+/* home page styles */
+
+.home-page-title{
+    font-family: 'Luckiest Guy';
+    color: #F6B33F;
+    -webkit-text-stroke: .5px black; 
+    padding-top: 5%;
+    padding-left: 3%;
+
+}
+.home-image{
+    width: 100%;
+}
+
+.home-paragraph{
+    font-family: 'Open Sans';
+    padding-left: 3%;
+    color:white;
+    padding-top: 3%;
+
+}
+
