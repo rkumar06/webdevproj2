@@ -8,21 +8,24 @@ import './style.css'
 
 function Members(){
     // const memberInfo = [{name: "name", bio: "bio", img: "img"}, {name: "name", bio: "bio", img: "img"}, {name: "name", bio: "bio", img: "img"}, {name: "name", bio: "bio", img: "img"}]
-    const memberInfo = memberData.map(mem => ({ key: nanoid(), name: mem.name, bio: mem.bio, pronoun: mem.pronouns, image: mem.img}));
-    const memberPolaroids = memberInfo.map(member => <Polaroid name = {member.name} bio = {member.bio} onClick = {handlePolaroidClicked} pronoun = {member.pronoun} image = {member.image} key = {member.key}/>)
+    const memberInfo = memberData.map((mem, index) => ({ key: nanoid(), name: mem.name, bio: mem.bio, pronoun: mem.pronouns, image: mem.img, ind: index}));
+    const memberPolaroids = memberInfo.map(member => <Polaroid name = {member.name} bio = {member.bio} onClick = {handlePolaroidClicked} pronoun = {member.pronoun} image = {member.image} key = {member.key} ind = {member.ind}/>)
     const [isBig, setBig] = React.useState(false)
+    const [bigIndex, setBigIndex] = React.useState(0)
     // console.log(memberName)
 
     function handleX() {
         setBig(false)
     }
-    function handlePolaroidClicked(){
+    function handlePolaroidClicked(index){
         setBig(true)
+        setBigIndex(index)
+        console.log(index)
     }
     
     return (
         <div className = "members-page">
-            {isBig ? <BigPolaroid/> : memberPolaroids}
+            {isBig ? <BigPolaroid name = {memberInfo[bigIndex].name} bio = {memberInfo[bigIndex].bio} image = {memberInfo[bigIndex].image}/> : memberPolaroids}
         </div>
     )
 }

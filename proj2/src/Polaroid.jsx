@@ -4,10 +4,10 @@ import './style.css'
 
 function Polaroid(props){
     const shortenedBio = props.bio.substring(0, 35);
-    console.log(props.image)
+    // console.log(props.ind)
     return (
         <div className="polaroid-container">
-            <div className="polaroid" onClick = {props.onClick}>
+            <div className="polaroid" onClick = {()=>props.onClick(props.ind)}>
                 <div className="polaroid-img-container">
                     <img className = "polaroid-img"src= {props.image} alt={props.name} />
                 </div>
