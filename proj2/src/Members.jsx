@@ -6,7 +6,7 @@ import './style.css'
 
 function Members(){
     const memberInfo = [{name: "name", bio: "bio", img: "img"}, {name: "name", bio: "bio", img: "img"}, {name: "name", bio: "bio", img: "img"}, {name: "name", bio: "bio", img: "img"}]
-    const memberPolaroids = memberInfo.map(member => <Polaroid name = {member.name} bio = {member.bio} img = {member.img} />)
+    const memberPolaroids = memberInfo.map(member => <Polaroid name = {member.name} bio = {member.bio} img = {member.img} onClick = {handlePolaroidClicked} />)
     const [isBig, setBig] = React.useState(false)
 
     function handleX() {
