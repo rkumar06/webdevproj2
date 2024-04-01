@@ -70,10 +70,12 @@
 
 .polaroid-img-container {
     height: 300px;
+    width: 300px;
     background-color: red;
 }
 
 .polaroid-img {
     background-color: red;
     height: 300px;
+    width: 300px;
 }

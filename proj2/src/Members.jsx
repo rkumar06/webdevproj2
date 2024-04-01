@@ -8,8 +8,8 @@ import './style.css'
 
 function Members(){
     // const memberInfo = [{name: "name", bio: "bio", img: "img"}, {name: "name", bio: "bio", img: "img"}, {name: "name", bio: "bio", img: "img"}, {name: "name", bio: "bio", img: "img"}]
-    const memberInfo = memberData.map(mem => ({ key: nanoid(), name: mem.name, bio: mem.bio, pronoun: mem.pronouns}));
-    const memberPolaroids = memberInfo.map(member => <Polaroid name = {member.name} bio = {member.bio} img = {member.img} onClick = {handlePolaroidClicked} pronoun = {member.pronoun}/>)
+    const memberInfo = memberData.map(mem => ({ key: nanoid(), name: mem.name, bio: mem.bio, pronoun: mem.pronouns, image: mem.img}));
+    const memberPolaroids = memberInfo.map(member => <Polaroid name = {member.name} bio = {member.bio} onClick = {handlePolaroidClicked} pronoun = {member.pronoun} image = {member.image} key = {member.key}/>)
     const [isBig, setBig] = React.useState(false)
     // console.log(memberName)
 
