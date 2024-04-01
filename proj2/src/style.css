@@ -5,6 +5,7 @@
 }
 
 .nav {
+    background-color: #243A50;
     font-family: 'Open Sans';
     display: flex;
     align-items: center;
@@ -27,6 +28,7 @@
 /* home page styles */
 
 .home-page-title{
+    background-color: #243A50;
     font-family: 'Luckiest Guy';
     color: #F6B33F;
     -webkit-text-stroke: .5px black; 
@@ -39,6 +41,7 @@
 }
 
 .home-paragraph{
+    background-color: #243A50;
     font-family: 'Open Sans';
     padding-left: 3%;
     color:white;
