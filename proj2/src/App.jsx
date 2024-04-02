@@ -10,16 +10,10 @@ import Members from './Members';
 
 function App() {
   // Initialize the state based on local storage value
-  const [firstClick, setFirstClick] = useState(() => {
-    // Use a function to only read from localStorage once during initialization
-    const savedFirstClick = localStorage.getItem('firstClick');
-    return savedFirstClick ? savedFirstClick === 'true' : true;
-  });
+  
 
   // Side effect to store the value in local storage whenever it changes
-  useEffect(() => {
-    localStorage.setItem('firstClick', firstClick);
-  }, [firstClick]);
+ 
 
   function handleFirstClick() {
     setFirstClick(false);
@@ -44,8 +38,8 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/videos" element={<Videos />} />
         <Route path="/members" element={<Members />} />
+        <Route path="*" element={<Home />} />
       </Routes>
-      {firstClick && <Home/>}
     </Router>
   );
 }
