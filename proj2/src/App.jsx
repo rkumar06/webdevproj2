@@ -49,9 +49,12 @@ function App() {
           <Link to="https://www.tiktok.com/@uc_noteworthy"><img className= "footer-logo" src = './logos/tiktok.png' /></Link>
 
         </div>
-        <div className = "footer-text">
+        <div className="footer-text-container">
+          <div className = "footer-text">
             <p>We are a student group acting independently of the University of California. We take full responsibility for our organization and this website.<br/>Copyright © Noteworthy A Cappella 2023</p>
+          </div>
         </div>
+        
       </footer>
     </Router>
   );

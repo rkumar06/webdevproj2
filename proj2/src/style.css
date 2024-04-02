@@ -59,8 +59,9 @@ body{
 }
 
 .footer-icons {
+    width: 30%;
     margin-left:5%;
-    margin-right:3%;
+    /* margin-right:3%; */
 }
 
 .footer-logo {
@@ -68,8 +69,14 @@ body{
     padding:5px;
 }
 
+.footer-text-container {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-right: 3%;
+}
+
 .footer-text{
-    margin-left:8%;
     text-align: right;
 }
 
