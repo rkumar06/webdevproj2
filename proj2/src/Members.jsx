@@ -23,6 +23,10 @@ function Members(){
         console.log(index)
     }
     
+    function handleRightClick(){
+        setBigIndex(pastIndex => pastIndex + 1)
+       }
+    
     return (
         <div className = "members-page">
             <div className="members-title">

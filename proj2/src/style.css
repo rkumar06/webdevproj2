@@ -136,6 +136,19 @@ body{
     align-items: center;
 }
 
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Take up full viewport height */
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    /* Add any additional styling for the card container */
+}
+
 .card {
     display: flex;
     width: 80vw; /* The card takes up most of the viewport width */
@@ -143,8 +156,8 @@ body{
     height: 70vh; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
     background-color: white;
-    margin-left:10%;
-    margin-right:10%;
+    margin-left:5%;
+    margin-right:5%;
     margin-top: 2%;
     position: relative;
     
@@ -188,4 +201,14 @@ body{
 
   .card-x:hover {
     color: #243A50; /* or any other color */
+}
+
+.left-arrow {
+    margin-right: 20px; /* Adjust spacing as needed */
+    font-size: 50px;
+}
+
+.right-arrow {
+    margin-left: 20px; /* Adjust spacing as needed */
+    font-size: 50px;
 }
