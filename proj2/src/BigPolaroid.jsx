@@ -2,7 +2,7 @@ import React from "react"
 
 function BigPolaroid(props) {
 
-    console.log(props.index)
+    console.log(props.major)
     return (
         <div className="card-wrapper">
             {props.index > 0 ? <div className="arrow left-arrow" onClick={props.leftFunction}>&#9664;</div> : <div className="left-end-arrow">&#9664;</div>}
@@ -18,6 +18,11 @@ function BigPolaroid(props) {
                         </div>
                         <h1 className="card-name">{props.name}</h1>
                         <p className="card-bio">{props.bio}</p>
+                        <br/>
+                        <p className="card-bio"><b>Majors & Minors: </b>{props.major}</p>
+                        <p className="card-bio"><b>Semester in Berkeley: </b>{props.semBerk}</p>
+                        <p className="card-bio"><b>Semester in Noteworthy: </b>{props.semNote}</p>
+                        <p className="card-bio"><b>Interests: </b>{props.interests}</p>
                     </div>
                 </div>
             </div>

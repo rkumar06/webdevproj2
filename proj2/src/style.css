@@ -206,10 +206,14 @@ body{
     margin: 0;
     font-size: 2em; /* Adjust size as needed */
     font-weight: bold;
+    font-family: 'Luckiest Guy';
+    color: #F6B33F;
+    -webkit-text-stroke: .5px black;
   }
   
   .card-bio {
     margin-top: 10px;
+    font-size: 70%;
   }
 
   .card-x{
