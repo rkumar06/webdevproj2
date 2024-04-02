@@ -139,7 +139,7 @@ body{
     width: 800px;
     margin-left: 20%;
     margin-right: 20%;
-    height: 500px;
+    min-height: 500px;
     margin-top:50px;
     border-radius: 10px;
 }
@@ -155,7 +155,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Take up full viewport height */
+    min-height: 100vh; /* Take up full viewport height */
 }
 
 .card-container {
@@ -168,7 +168,7 @@ body{
     display: flex;
     width: 80vw; /* The card takes up most of the viewport width */
     max-width: 1200px; /* Optional: Sets a max-width for larger screens */
-    height: 70vh; 
+    min-height: 70vh; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
     background-color: white;
     margin-left:5%;
