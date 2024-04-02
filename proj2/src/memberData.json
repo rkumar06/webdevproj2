@@ -9,23 +9,9 @@
         "semesterInBerkeley": "6th",
         "semesterInNoteworthy": "2nd",
         "interests": "t1s, poke parlor before they removed the party discount, nilah sejuani, r/dataisbeautiful, tartaglia, peets coffee, open toed shoes, and my BRITA",
-        "bio": "So I legit can’t think of anything to write here so I’ll just provide this useful data because I stan dataframes and data science and data and pandas (animal) and python (animal) and machines (animal) and learning (animal).\n\nhttps://docs.google.com/spreadsheets/d/15TmBXWZ5PRe1Dr2sG6V9TuS_vVeXQvUHj5EKHAkTGDY",
+        "bio": "So I legit can’t think of anything to write here so I’ll just provide this useful data because I stan dataframes and data science and data and pandas (animal) and python (animal) and machines (animal) and learning (animal).\n\nhttps://docs.google.com/spreadsheets/d/\n15TmBXWZ5PRe1Dr2sG6V9TuS_vVeXQvUHj5EKHAkTGDY",
         "anythingThatYouWouldLikeUsToKnow": "sup.",
         "howWasYourDay": "Oh, sing it now!, You know I want you."
-    },
-    {
-        "timestamp": "2024-02-27T07:19:24.461Z",
-        "img": "./memberImages/amanda.jpg",
-        "name": "Amanda Sakimura",
-        "pronouns": "she/her",
-        "voicePart": "Tenor 1",
-        "majorsminors": "English/Art History, Creative Writing Minor",
-        "semesterInBerkeley": "2nd",
-        "semesterInNoteworthy": "2nd",
-        "interests": "bees, movies, b-movies, making media comm regret not putting a word limit for bio",
-        "bio": "According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible. Yellow, black. Yellow, black. Yellow, black. Yellow, black. Ooh, black and yellow! Let's shake it up a little. Barry! Breakfast is ready! Ooming! Hang on a second. Hello? - Barry? - Adam? - Oan you believe this is happening? - I can't. I'll pick you up. Looking sharp. Use the stairs. Your father paid good money for those. Sorry. I'm excited. Here's the graduate. We're very proud of you, son. A perfect report card, all B's. Very proud. Ma! I got a thing going here. - You got lint on your fuzz. - Ow! That's me! - Wave to us! We'll be in row 118,000. - Bye! Barry, I told you, stop flying in the house! - Hey, Adam. - Hey, Barry. - Is that fuzz gel? - A little.",
-        "anythingThatYouWouldLikeUsToKnow": "please check out applerankings.com",
-        "howWasYourDay": "Option 14, wehhhh, You know I want you."
     },
     {
         "timestamp": "2024-02-28T23:31:09.756Z",
@@ -222,5 +208,19 @@
         "bio": "you know the hard part about writing this bio is making it sound interesting and funny like everyone else's and pretending like i'm not the token basic bitch here, so here, have some of my historical quotes of all time: \n\naccording to all known laws of physics, bees shouldn't be able to fly and you shouldn't be that ugly. but here i am eating honey nut cheerios \n--richard nixon\n\ndo you think god stays in heaven because they, too, live in fear of what they have created? haha nukes go brrrrr \n--conversation between oppenheimer and his sleep paralysis demon\n\nthe only way to heal pop music is to have olivia and sabrina get married on my private jet with joshua as the minister so i can get a tax writeoff as a religious institution\n--taylor swift\n",
         "anythingThatYouWouldLikeUsToKnow": "if you knew then i would have to fuck you",
         "howWasYourDay": "Yes, No, Oh, sing it now!, All around the world!, What the hell does that mean, Option 14, true, false, wehhhh, You know I want you."
+    },
+    {
+        "timestamp": "2024-02-27T07:19:24.461Z",
+        "img": "./memberImages/amanda.jpg",
+        "name": "Amanda Sakimura",
+        "pronouns": "she/her",
+        "voicePart": "Tenor 1",
+        "majorsminors": "English/Art History, Creative Writing Minor",
+        "semesterInBerkeley": "2nd",
+        "semesterInNoteworthy": "2nd",
+        "interests": "bees, movies, b-movies, making media comm regret not putting a word limit for bio",
+        "bio": "According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible. Yellow, black. Yellow, black. Yellow, black. Yellow, black. Ooh, black and yellow! Let's shake it up a little. Barry! Breakfast is ready! Ooming! Hang on a second. Hello? - Barry? - Adam? - Oan you believe this is happening? - I can't. I'll pick you up. Looking sharp. Use the stairs. Your father paid good money for those. Sorry. I'm excited. Here's the graduate. We're very proud of you, son. A perfect report card, all B's. Very proud. Ma! I got a thing going here. - You got lint on your fuzz. - Ow! That's me! - Wave to us! We'll be in row 118,000. - Bye! Barry, I told you, stop flying in the house! - Hey, Adam. - Hey, Barry. - Is that fuzz gel? - A little.",
+        "anythingThatYouWouldLikeUsToKnow": "please check out applerankings.com",
+        "howWasYourDay": "Option 14, wehhhh, You know I want you."
     }
 ]
