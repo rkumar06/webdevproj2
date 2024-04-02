@@ -9,6 +9,9 @@ function BigPolaroid(props){
                     style={{ backgroundImage: `url(${props.image})` }}
                 />
                 <div className="card-text">
+                    <div className = "card-x">
+                        <h2>x</h2>
+                    </div>
                     <h1 className="card-name">{props.name}</h1>
                      <p className="card-bio">{props.bio}</p>
                 </div>
