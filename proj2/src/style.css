@@ -31,8 +31,13 @@ body{
 }
 
 .nav-home {
-    /* display: flex; */
-    /* justify-content: left; */
+    display: flex;
+    height: 7vh;
+    align-items: center;
+}
+
+.nav-img {
+    height: 7vh;
 }
 
 .nav-links {

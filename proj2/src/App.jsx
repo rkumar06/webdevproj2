@@ -23,7 +23,7 @@ function App() {
     <Router>
       <nav className='nav'>
         <div className="nav-home">
-          <Link to="/home">Home </Link>
+          <Link to="/home"><img className="nav-img" src="./src/images/logo.png"/> </Link>
         </div>
         <div className='nav--text'>
           
