@@ -67,9 +67,22 @@ body{
 }
 
 /* MEMBERS PAGE */
+.members-page {
+    margin: 3%;
+}
+
+.members-title {
+    background-color: #243A50;
+    font-family: 'Luckiest Guy';
+    color: #F6B33F;
+    -webkit-text-stroke: .5px black;
+    font-size: 30px;
+}
+
 .members-polaroids {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* POLAROID STYLES */
@@ -78,9 +91,10 @@ body{
     display: flex;
     background-color: white;
     padding: 20px; /* Adjust as needed */
-    margin: 10px; /* Adjust as needed */
+    margin: 1.5%; /* Adjust as needed */
     width: 300px;
     height: 400px;
+    border-radius: 7px;
 }
 
 .polaroid {
