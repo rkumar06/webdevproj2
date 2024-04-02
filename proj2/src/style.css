@@ -268,3 +268,8 @@ body{
 .right-arrow:hover{
     color:white;
 }
+
+/* VIDEO STYLES */
+.videos-page {
+    margin: 3%;
+}
