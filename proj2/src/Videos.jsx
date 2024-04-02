@@ -25,7 +25,7 @@ function Videos(){
     return (
         <div className="videos-page">
             <div className="members-title">
-                <h1>Videos</h1>
+                <h1>Our Favorite Videos</h1>
             </div>
 
 
