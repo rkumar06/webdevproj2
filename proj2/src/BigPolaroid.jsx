@@ -3,7 +3,7 @@ import React from "react"
 function BigPolaroid(props) {
     return (
         <div className="card-wrapper">
-            <div className="arrow left-arrow" onClick={props.onLeftArrowClick}>&#9664;</div>
+            <div className="arrow left-arrow" onClick={props.leftFunction}>&#9664;</div>
             <div className="card-container">
                 <div className="card">
                     <div
@@ -19,7 +19,7 @@ function BigPolaroid(props) {
                     </div>
                 </div>
             </div>
-            <div className="arrow right-arrow" onClick={props.onRightArrowClick}>&#9654;</div>
+            <div className="arrow right-arrow" onClick={props.rightFunction}>&#9654;</div>
         </div>
     );
 }

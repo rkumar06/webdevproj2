@@ -25,7 +25,15 @@ function Members(){
     
     function handleRightClick(){
         setBigIndex(pastIndex => pastIndex + 1)
-       }
+        console.log(bigIndex)
+    
+    }
+
+    function handleLeftClick(){
+        setBigIndex(pastIndex => pastIndex - 1)
+        console.log(bigIndex)
+    
+    }
     
     return (
         <div className = "members-page">
@@ -33,7 +41,7 @@ function Members(){
                 <h1>Members</h1>
             </div>
             <div className="members-polaroids">
-                {isBig ? <BigPolaroid xFunction = {handleX} name = {memberInfo[bigIndex].name} bio = {memberInfo[bigIndex].bio} image = {memberInfo[bigIndex].image}/> : memberPolaroids}
+                {isBig ? <BigPolaroid leftFunction = {handleLeftClick} rightFunction = {handleRightClick} xFunction = {handleX} name = {memberInfo[bigIndex].name} bio = {memberInfo[bigIndex].bio} image = {memberInfo[bigIndex].image}/> : memberPolaroids}
             </div>
         </div>
     )

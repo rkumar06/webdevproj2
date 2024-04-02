@@ -208,7 +208,15 @@ body{
     font-size: 50px;
 }
 
+.left-arrow:hover {
+    color:white;
+}
+
 .right-arrow {
     margin-left: 20px; /* Adjust spacing as needed */
     font-size: 50px;
+}
+
+.right-arrow:hover{
+    color:white;
 }
