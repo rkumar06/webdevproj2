@@ -83,7 +83,7 @@ body{
     font-family: 'Luckiest Guy';
     color: #F6B33F;
     -webkit-text-stroke: .5px black;
-    font-size: 30px;
+    font-size: 5vh;
 }
 
 .members-polaroids {
@@ -294,17 +294,30 @@ body{
 .about-title {
     font-family: 'Luckiest Guy';
     color: #F6B33F;
-    -webkit-text-stroke: .3px black; 
+    -webkit-text-stroke: .4px black; 
+    font-size: 5vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+}
+
+.about-all-content {
+    margin: 3%;
 }
 
 .about-hire-us-pic-paragraph{
     display:flex;
+    margin-top: 1vh;
 }
 
 .about-hire-us-pic{
-    width: 40vh;
+    width: 20vw;
+    background-color: white;
+    padding: 5px;
+    margin-right: 2.5vw;
 }
 
 .about-hire-us-text{
-    margin:3%;
+    margin-right: 17vw;
+    margin-left: 2.5vw;
+    font-size: 2.5vh;
 }
