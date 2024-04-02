@@ -2,6 +2,28 @@ import React from "react"
 
 
 function AboutUs() {
+    //"./memberImages/alex.jpg"
+    const flyer_links = ['./flyers/audition.jpg','./flyers/halloween.png', './flyers/nw_show.png', './flyers/road_heist.png', './flyers/welcome_sp23.png', './flyers/welcome_sp24.png', './flyers/west_coast.jpg']
+    const [flyer_index, set_flyer_index] = React.useState(0)
+
+    function handleLeft() {
+        if (flyer_index == 0) {
+            set_flyer_index(flyer_links.length - 1)
+        }
+        else {
+           set_flyer_index(lastIndex => lastIndex - 1) 
+        } 
+    }
+
+    function handleRight() {
+        if (flyer_index == flyer_links.length - 1) {
+            set_flyer_index(0)
+        }
+        else {
+           set_flyer_index(lastIndex => lastIndex + 1) 
+        } 
+    }
+    
     return (
         <div className = "aboutus-page">
             <div className="members-title">
@@ -19,10 +41,12 @@ function AboutUs() {
                 <div className = "about-events-flyers">
                     <div className = "about-events-text">
                         <h3 className = "about-title">Events</h3>
-                        <p>We organize Welcome Back to A Cappella, Cal’s a cappella orientation, at the beginning of every semester. Hundreds of students turn out to hear 13+ a cappella groups perform. The show is always fun, and we hope you’ll come!</p>
+                        <p className = "about-event-text">We organize Welcome Back to A Cappella, Cal’s a cappella orientation, at the beginning of every semester. Hundreds of students turn out to hear 13+ a cappella groups perform. The show is always fun, and we hope you’ll come!</p>
                     </div>
                     <div className = "about-flyers">
-
+                        <div onClick = {handleLeft} className="arrow left-arrow">&#9664; </div>
+                            <img className = "about-each-flyer" src = {flyer_links[flyer_index]} />
+                        <div onClick = {handleRight} className="arrow right-arrow">&#9654; </div>
                     </div>
                 </div>
 

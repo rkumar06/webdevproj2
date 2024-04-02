@@ -317,7 +317,30 @@ body{
 }
 
 .about-hire-us-text{
+    /* margin-right: 10vw; */
+    margin-left: 5vw;
+    font-size: 2.5vh;
+}
+
+.about-each-flyer{
+    width: 30vw;
+    height: 65vh;
+}
+.about-flyers{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-events-flyers{
+    display:flex;
+    margin-top:2.5vh;
+}
+.about-all-content{
     margin-right: 17vw;
     margin-left: 2.5vw;
     font-size: 2.5vh;
+}
+
+.about-event-text{
+    width: 50vw;
 }
