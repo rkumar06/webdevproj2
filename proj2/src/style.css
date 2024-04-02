@@ -284,8 +284,27 @@ body{
 
 .aboutus-page {
     margin: 3%;
+    color: white;
 }
 
 .home-page{
     margin: 3%;
+}
+
+.about-title {
+    font-family: 'Luckiest Guy';
+    color: #F6B33F;
+    -webkit-text-stroke: .3px black; 
+}
+
+.about-hire-us-pic-paragraph{
+    display:flex;
+}
+
+.about-hire-us-pic{
+    width: 40vh;
+}
+
+.about-hire-us-text{
+    margin:3%;
 }
