@@ -3,7 +3,7 @@ import './style.css'
 
 
 function Polaroid(props){
-    const shortenedBio = props.bio.substring(0, 35);
+    const shortenedBio = props.bio.substring(0, 72);
     // console.log(props.ind)
     return (
         <div className="polaroid-container">
@@ -11,9 +11,9 @@ function Polaroid(props){
                 <div className="polaroid-img-container">
                     <img className = "polaroid-img"src= {props.image} alt={props.name} />
                 </div>
-                <h3 style={{ backgroundColor: "white" }}>{props.name}</h3>
-                <h4 style={{ backgroundColor: "white" }}>{props.pronoun}</h4>
-                <h5 style={{ backgroundColor: "white" }}>{`${shortenedBio}...`}</h5>
+                <h3 className="polaroid-name">{props.name}</h3>
+                <h4 className="polaroid-pronouns">{props.pronoun}</h4>
+                <h5 className="polaroid-bio">{`${shortenedBio}...`}</h5>
             </div>
         </div>
     )

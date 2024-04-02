@@ -117,6 +117,21 @@ body{
     width: 300px;
 }
 
+.polaroid-name {
+    font-family: 'Open Sans';
+    font-size: 4vh;
+}
+
+.polaroid-pronouns {
+    font-family: 'Open Sans';
+    color: #243A50;
+}
+
+.polaroid-bio {
+    font-family: 'Open Sans';
+}
+
+
 .big-polaroid-background{
     background-color:white;
     display: grid;
