@@ -61,6 +61,7 @@ body{
 }
 .home-image{
     width: 100%;
+    margin: 0%;
 }
 
 .home-paragraph{
@@ -278,5 +279,13 @@ body{
 
 /* VIDEO STYLES */
 .videos-page {
+    margin: 3%;
+}
+
+.aboutus-page {
+    margin: 3%;
+}
+
+.home-page{
     margin: 3%;
 }
