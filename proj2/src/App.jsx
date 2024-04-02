@@ -9,7 +9,11 @@ import Videos from './Videos'
 import Members from './Members'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [firstClick, setFirstClick] = useState(true)
+
+  function handleFirstClick(){
+    setFirstClick(false)
+  }
 
   return (
     <Router>
@@ -17,9 +21,9 @@ function App() {
         <div className = 'nav--text'>
         <Link to="/home">Home </Link>
         <nav className = "nav-links">
-          <Link to="/about"> About</Link>
-          <Link to="/videos">Videos </Link>
-          <Link to="/members"> Members</Link>
+          <Link onClick = {handleFirstClick} to="/about"> About</Link>
+          <Link onClick = {handleFirstClick} to="/videos">Videos </Link>
+          <Link onClick = {handleFirstClick} to="/members"> Members</Link>
         </nav>
         </div>
       </nav>
@@ -29,7 +33,9 @@ function App() {
         <Route path="/videos" element={<Videos />} />
         <Route path="/members" element={<Members />} />
       </Routes>
+      {firstClick && <Home/>}
     </Router>
+    
   )
   }
 
