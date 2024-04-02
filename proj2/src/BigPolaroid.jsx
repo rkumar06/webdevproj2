@@ -10,7 +10,7 @@ function BigPolaroid(props){
                 />
                 <div className="card-text">
                     <div className = "card-x">
-                        <h2>x</h2>
+                        <h2 onClick = {props.xFunction}>x</h2>
                     </div>
                     <h1 className="card-name">{props.name}</h1>
                      <p className="card-bio">{props.bio}</p>

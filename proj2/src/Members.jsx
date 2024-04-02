@@ -25,7 +25,7 @@ function Members(){
     
     return (
         <div className = "members-page">
-            {isBig ? <BigPolaroid name = {memberInfo[bigIndex].name} bio = {memberInfo[bigIndex].bio} image = {memberInfo[bigIndex].image}/> : memberPolaroids}
+            {isBig ? <BigPolaroid xFunction = {handleX} name = {memberInfo[bigIndex].name} bio = {memberInfo[bigIndex].bio} image = {memberInfo[bigIndex].image}/> : memberPolaroids}
         </div>
     )
 }
