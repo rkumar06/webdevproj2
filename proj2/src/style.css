@@ -94,11 +94,11 @@ body{
 .polaroid-img-container {
     height: 300px;
     width: 300px;
-    background-color: red;
+    background-color: #243A50;
 }
 
 .polaroid-img {
-    background-color: red;
+    background-color: #243A50;
     height: 300px;
     width: 300px;
 }
