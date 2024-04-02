@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { useState, useEffect } from 'react'; // Import useEffect
 import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
 import './style.css';
 import AboutUs from './AboutUs';
 import Home from './Home';
@@ -41,6 +40,19 @@ function App() {
         <Route path="/members" element={<Members />} />
         <Route path="*" element={<Home />} />
       </Routes>
+      <footer className = "footer"> 
+        
+        <div className = "footer-icons">
+          <Link to="https://www.facebook.com/Noteworthy"><img className= "footer-logo" src = './logos/facebook.png' /></Link>
+          <Link to="https://www.instagram.com/cal_noteworthy/"><img className= "footer-logo" src = './logos/instagram.png' /></Link>
+          <Link to="https://www.youtube.com/channel/UCDyMtV5cuuJZrg5Wm7VZmMA"><img className= "footer-logo" src = './logos/youtube.png' /></Link>
+          <Link to="https://www.tiktok.com/@uc_noteworthy"><img className= "footer-logo" src = './logos/tiktok.png' /></Link>
+
+        </div>
+        <div className = "footer-text">
+            <p>We are a student group acting independently of the University of California. We take full responsibility for our organization and this website.<br/>Copyright © Noteworthy A Cappella 2023</p>
+        </div>
+      </footer>
     </Router>
   );
 }

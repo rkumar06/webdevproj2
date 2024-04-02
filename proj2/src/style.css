@@ -48,6 +48,32 @@ body{
     /* align-items: right; */
 }
 
+.footer {
+    background-color: white;
+    background-image:linear-gradient(to bottom, #243A50, white 10%);
+    height: 8vh;
+    margin-top:20vh;
+    padding-top:2.5vh;
+    display: flex;
+    font-size: 1.5vh;
+}
+
+.footer-icons {
+    margin-left:5%;
+    margin-right:3%;
+}
+
+.footer-logo {
+    width:30px;
+    padding:5px;
+}
+
+.footer-text{
+    margin-left:8%;
+    text-align: right;
+}
+
+
 /* home page styles */
 
 .home-page-title{
