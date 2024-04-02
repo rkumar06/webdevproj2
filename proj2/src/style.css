@@ -239,11 +239,13 @@ body{
     margin-right: 20px; /* Adjust spacing as needed */
     font-size: 50px;
     cursor: pointer;
+    color: #F6B33F;
 }
 
 .left-end-arrow {
     margin-right: 20px; /* Adjust spacing as needed */
     font-size: 50px;
+    color: #243A50;
 }
 
 
@@ -255,10 +257,12 @@ body{
     margin-left: 20px; /* Adjust spacing as needed */
     font-size: 50px;
     cursor: pointer;
+    color: #F6B33F;
 }
 .right-end-arrow {
     margin-left: 20px; /* Adjust spacing as needed */
     font-size: 50px;
+    color: #243A50;
 }
 
 .right-arrow:hover{
