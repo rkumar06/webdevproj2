@@ -3,7 +3,7 @@ import './style.css'
 
 
 function Polaroid(props){
-    const shortenedBio = props.bio.substring(0, 72);
+    const shortenedBio = props.bio.substring(0, 68);
     // console.log(props.ind)
     return (
         <div className="polaroid-container">

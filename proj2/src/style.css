@@ -6,6 +6,7 @@
 
 body{
     background-color: #243A50;
+    font-family: 'Open Sans';
 }
 .nav {
     background-color: #243A50;
@@ -125,9 +126,12 @@ body{
 .polaroid-pronouns {
     font-family: 'Open Sans';
     color: #243A50;
+    font-size: 2vh;
+    min-height: 2.7vh;
 }
 
 .polaroid-bio {
+    font-size: 1.6vh;
     font-family: 'Open Sans';
 }
 
@@ -156,6 +160,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh; /* Take up full viewport height */
+    font-family: 'Open Sans'
 }
 
 .card-container {
@@ -175,6 +180,7 @@ body{
     margin-right:5%;
     margin-top: 2%;
     position: relative;
+    border-radius: 12px;
     
   }
   
@@ -183,6 +189,8 @@ body{
     background-image: url('path-to-your-image.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
   }
   
   .card-text {
