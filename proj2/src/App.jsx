@@ -22,10 +22,11 @@ function App() {
   return (
     <Router>
       <nav className='nav'>
+        <div className="nav-home">
+          <Link to="/home">Home </Link>
+        </div>
         <div className='nav--text'>
-          <div className="nav-home">
-            <Link to="/home">Home </Link>
-          </div>
+          
           <nav className="nav-links">
             <Link onClick={handleFirstClick} to="/about">About</Link>
             <Link onClick={handleFirstClick} to="/videos">Videos </Link>

@@ -24,18 +24,22 @@ body{
 }
 
 .nav--text {
+    width: 100%;
     display: flex;
+    justify-content: right;
 }
 
 .nav-home {
-    display: flex;
-    justify-content: left;
+    /* display: flex; */
+    /* justify-content: left; */
 }
 
 .nav-links {
-    display: flex;
-    justify-content: right;
-    align-items: right;
+    /* display: flex; */
+    /* margin-left: auto; */
+    /* text-align: right; */
+    /* justify-content: right; */
+    /* align-items: right; */
 }
 
 /* home page styles */
