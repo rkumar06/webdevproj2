@@ -41,7 +41,7 @@ function Members(){
                 <h1>Members</h1>
             </div>
             <div className="members-polaroids">
-                {isBig ? <BigPolaroid maxIndex = {memberInfo.length} major = {memberInfo[bigIndex].major} index = {bigIndex} leftFunction = {handleLeftClick} rightFunction = {handleRightClick} xFunction = {handleX} name = {memberInfo[bigIndex].name} semNote = {memberInfo[bigIndex].semNote} interests = {memberInfo[bigIndex].interests} semBerk = {memberInfo[bigIndex].semBerk} bio = {memberInfo[bigIndex].bio} image = {memberInfo[bigIndex].image}/> : memberPolaroids}
+                {isBig ? <BigPolaroid maxIndex = {memberInfo.length} major = {memberInfo[bigIndex].major} index = {bigIndex} leftFunction = {handleLeftClick} rightFunction = {handleRightClick} xFunction = {handleX} name = {memberInfo[bigIndex].name} semNote = {memberInfo[bigIndex].semNote} interests = {memberInfo[bigIndex].interests     } semBerk = {memberInfo[bigIndex].semBerk} bio = {memberInfo[bigIndex].bio} image = {memberInfo[bigIndex].image}/> : memberPolaroids}
             </div>
         </div>
     )
