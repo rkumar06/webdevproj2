@@ -127,6 +127,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-right:4%;
   }
   
   .card-name {
