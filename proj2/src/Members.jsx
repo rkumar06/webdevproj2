@@ -8,8 +8,8 @@ import './style.css'
 
 function Members(){
     // const memberInfo = [{name: "name", bio: "bio", img: "img"}, {name: "name", bio: "bio", img: "img"}, {name: "name", bio: "bio", img: "img"}, {name: "name", bio: "bio", img: "img"}]
-    const memberInfo = memberData.map((mem, index) => ({ key: nanoid(), name: mem.name, bio: mem.bio, pronoun: mem.pronouns, image: mem.img, ind: index}));
-    const memberPolaroids = memberInfo.map(member => <Polaroid name = {member.name} bio = {member.bio} onClick = {handlePolaroidClicked} pronoun = {member.pronoun} image = {member.image} key = {member.key} ind = {member.ind}/>)
+    const memberInfo = memberData.map((mem, index) => ({ key: nanoid(), name: mem.name, bio: mem.bio, pronoun: mem.pronouns, image: mem.img, ind: index, major: mem.majorsminors, semBerk: mem.semesterInBerkeley, semNote: mem.semesterInNoteworthy, interests: mem.interests}));
+    const memberPolaroids = memberInfo.map(member => <Polaroid name = {member.name} bio = {member.bio} onClick = {handlePolaroidClicked} pronoun = {member.pronoun} image = {member.image} key = {member.key} ind = {member.ind} major ={member.major} interests = {member.interests}/>)
     const [isBig, setBig] = React.useState(false)
     const [bigIndex, setBigIndex] = React.useState(0)
     // console.log(memberName)
@@ -41,7 +41,7 @@ function Members(){
                 <h1>Members</h1>
             </div>
             <div className="members-polaroids">
-                {isBig ? <BigPolaroid maxIndex = {memberInfo.length}index = {bigIndex} leftFunction = {handleLeftClick} rightFunction = {handleRightClick} xFunction = {handleX} name = {memberInfo[bigIndex].name} bio = {memberInfo[bigIndex].bio} image = {memberInfo[bigIndex].image}/> : memberPolaroids}
+                {isBig ? <BigPolaroid maxIndex = {memberInfo.length} major = {memberInfo[bigIndex].major} index = {bigIndex} leftFunction = {handleLeftClick} rightFunction = {handleRightClick} xFunction = {handleX} name = {memberInfo[bigIndex].name} semNote = {memberInfo[bigIndex].semNote} interests = {memberInfo[bigIndex].interests} semBerk = {memberInfo[bigIndex].semBerk} bio = {memberInfo[bigIndex].bio} image = {memberInfo[bigIndex].image}/> : memberPolaroids}
             </div>
         </div>
     )
