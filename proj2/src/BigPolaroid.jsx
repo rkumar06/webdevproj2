@@ -1,9 +1,11 @@
 import React from "react"
 
 function BigPolaroid(props) {
+
+    console.log(props.index)
     return (
         <div className="card-wrapper">
-            <div className="arrow left-arrow" onClick={props.leftFunction}>&#9664;</div>
+            {props.index > 0 ? <div className="arrow left-arrow" onClick={props.leftFunction}>&#9664;</div> : <div className="left-end-arrow">&#9664;</div>}
             <div className="card-container">
                 <div className="card">
                     <div
@@ -19,7 +21,7 @@ function BigPolaroid(props) {
                     </div>
                 </div>
             </div>
-            <div className="arrow right-arrow" onClick={props.rightFunction}>&#9654;</div>
+            {props.index < props.maxIndex - 1 ? <div className="arrow right-arrow" onClick={props.rightFunction}>&#9654;</div> : <div className="right-end-arrow">&#9654;</div>}
         </div>
     );
 }

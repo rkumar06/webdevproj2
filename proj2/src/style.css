@@ -221,13 +221,25 @@ body{
 .left-arrow {
     margin-right: 20px; /* Adjust spacing as needed */
     font-size: 50px;
+    cursor: pointer;
 }
+
+.left-end-arrow {
+    margin-right: 20px; /* Adjust spacing as needed */
+    font-size: 50px;
+}
+
 
 .left-arrow:hover {
     color:white;
 }
 
 .right-arrow {
+    margin-left: 20px; /* Adjust spacing as needed */
+    font-size: 50px;
+    cursor: pointer;
+}
+.right-end-arrow {
     margin-left: 20px; /* Adjust spacing as needed */
     font-size: 50px;
 }
