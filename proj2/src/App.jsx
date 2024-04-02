@@ -29,7 +29,9 @@ function App() {
     <Router>
       <nav className='nav'>
         <div className='nav--text'>
-          <Link to="/home">Home </Link>
+          <div className="nav-home">
+            <Link to="/home">Home </Link>
+          </div>
           <nav className="nav-links">
             <Link onClick={handleFirstClick} to="/about">About</Link>
             <Link onClick={handleFirstClick} to="/videos">Videos </Link>

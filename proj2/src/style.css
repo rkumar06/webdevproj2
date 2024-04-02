@@ -23,9 +23,19 @@ body{
     display: inline-block;
 }
 
+.nav--text {
+    display: flex;
+}
+
+.nav-home {
+    display: flex;
+    justify-content: left;
+}
+
 .nav-links {
     display: flex;
-    justify-content: flex-end;
+    justify-content: right;
+    align-items: right;
 }
 
 /* home page styles */
@@ -52,10 +62,16 @@ body{
 
 }
 
+/* MEMBERS PAGE */
+.members-page {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* POLAROID STYLES */
 
 .polaroid-container {
+    display: flex;
     background-color: white;
     padding: 20px; /* Adjust as needed */
     margin: 10px; /* Adjust as needed */
@@ -106,7 +122,7 @@ body{
     display: flex;
     width: 80vw; /* The card takes up most of the viewport width */
     max-width: 1200px; /* Optional: Sets a max-width for larger screens */
-    height: 70vh; /* Adjust the height as needed */
+    height: 70vh; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
     background-color: white;
     margin-left:10%;
