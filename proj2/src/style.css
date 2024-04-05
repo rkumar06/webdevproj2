@@ -333,20 +333,18 @@ body{
     padding-bottom: 1.5vh;
 }
 
-.about-all-content {
-    margin: 3%;
-}
-
 .about-hire-us-pic-paragraph{
     display:flex;
     margin-top: 1vh;
 }
 
 .about-hire-us-pic{
-    width: 20vw;
+    /* width: 20vw; */
     background-color: white;
     padding: 5px;
     margin-right: 2.5vw;
+    min-width:300px;
+    max-height: 200px;
 }
 
 .about-hire-us-text{
@@ -356,8 +354,9 @@ body{
 }
 
 .about-each-flyer{
-    width: 30vw;
-    height: 65vh;
+    width: 400px;
+    height: 600px;
+
 }
 .about-flyers{
     display:flex;
@@ -372,8 +371,15 @@ body{
     margin-right: 17vw;
     margin-left: 2.5vw;
     font-size: 2.5vh;
+    margin: 3%;
 }
 
 .about-event-text{
     width: 50vw;
+}
+
+.about-form{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
 }
