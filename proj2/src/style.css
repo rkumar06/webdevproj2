@@ -390,6 +390,7 @@ body{
 }
 
 .all-four-posts{
+    position: absolute;
     display:grid;
     grid-template-columns: auto auto; /* Defines two columns */
     grid-template-rows: auto auto;    /* Defines two rows */
@@ -408,10 +409,11 @@ body{
 .insta-grid-container{
     /* width:50%; */
     /* margin: 0 auto; */
-    position: absolute; /* Set the position to fixed */
+    position: relative; /* Set the position to fixed */
     /* top: 20%;       
     left: 25%;       */
     width: 50%;     
     justify-content: left;
     margin-top: 3%;
+    height: 450px;
 }
