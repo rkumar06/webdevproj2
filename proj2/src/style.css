@@ -383,3 +383,35 @@ body{
     color:white;
     font-weight: bold;
 }
+
+.about-instagram{
+    margin-top:3%;
+    position: relative;
+}
+
+.all-four-posts{
+    display:grid;
+    grid-template-columns: auto auto; /* Defines two columns */
+    grid-template-rows: auto auto;    /* Defines two rows */
+    gap:5px;
+}
+
+.insta-post{
+    /* width:20%; */
+    /* text-align: center;
+    padding: 20px; */
+    width: 200px;
+    background-color: white;
+    padding:10px;
+}
+
+.insta-grid-container{
+    /* width:50%; */
+    /* margin: 0 auto; */
+    position: absolute; /* Set the position to fixed */
+    /* top: 20%;       
+    left: 25%;       */
+    width: 50%;     
+    justify-content: left;
+    margin-top: 3%;
+}

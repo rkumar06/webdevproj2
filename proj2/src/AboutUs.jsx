@@ -68,17 +68,29 @@ function AboutUs() {
                 <div className = "about-instagram">
                     <div className = "about-insta-title">
                         <h3 className = "about-title">Follow Us</h3>
-                    </div>
-                    <div className = "insta-embed">
-                    <div className="insta-embed" dangerouslySetInnerHTML={{ __html: instagramEmbedCode }}></div>
-
-                    </div>
+                        <div className = "insta-grid-container">
+                        <div className="all-four-posts">
+                            <a  href="https://www.instagram.com/p/C5XV_dIrEEC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
+                                <img className = "insta-post" src="./insta_pics/retreat.jpeg" alt="First" />
+                            </a>
+                            <a  href="https://www.instagram.com/p/C3liex_vrpC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
+                                <img className = "insta-post" src="./insta_pics/newbies.jpeg" alt="Second" />
+                            </a>
+                            <a href="https://www.instagram.com/p/C2Yq2hvrEle/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
+                                <img className = "insta-post" src="./insta_pics/back.jpeg" alt="Third" />
+                            </a>
+                            <a  href="https://www.instagram.com/p/C2GQSnRv7TE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
+                                <img className = "insta-post" src="./insta_pics/audition.jpeg" alt="Fourth" />
+                            </a>
+                        </div>
+                        </div>
 
                 </div>
 
             </div>
         
 
+        </div>
         </div>
     )
 }
