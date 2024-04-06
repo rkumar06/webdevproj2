@@ -90,7 +90,6 @@ body{
     -webkit-text-stroke: .5px black; 
     padding-top: 5%;
     padding-left: 3%;
-    margin-top: 8%;
 
 }
 .home-image{
@@ -160,7 +159,7 @@ body{
 
 .polaroid-name {
     font-family: 'Open Sans';
-    font-size: 4vh;
+    font-size: 3.5vh;
 }
 
 .polaroid-pronouns {
@@ -387,11 +386,11 @@ body{
 
 .about-instagram{
     margin-top:3%;
-    position: relative;
+    /* position: relative; */
 }
 
 .all-four-posts{
-    position: absolute;
+    /* position: absolute; */
     display:grid;
     grid-template-columns: auto auto; /* Defines two columns */
     grid-template-rows: auto auto;    /* Defines two rows */
@@ -402,7 +401,7 @@ body{
     /* width:20%; */
     /* text-align: center;
     padding: 20px; */
-    width: 200px;
+    width: 90%;
     background-color: white;
     padding:10px;
 }
@@ -410,11 +409,161 @@ body{
 .insta-grid-container{
     /* width:50%; */
     /* margin: 0 auto; */
-    position: relative; /* Set the position to fixed */
+    /* position: relative; */
     /* top: 20%;       
     left: 25%;       */
-    width: 50%;     
+    width: 40%;     
     justify-content: left;
     margin-top: 3%;
     height: 450px;
+}
+
+/* music notes */
+
+.home-music-container{
+    display: flex;
+    z-index: 10;
+    margin-right: 10%;
+}
+
+.home-music-note-double{
+    margin-right:10%;
+    margin-left:10%;
+    /* width:80px;
+    height: 102px; */
+    width:8%;
+
+}
+.home-music-note-single{
+    margin-right:10%;
+    margin-left:10%;
+    /* width:65px;
+    height:92px; */
+    width:8%;
+}
+
+.video-music-single{
+    width:15%;
+    margin-left:10%;
+    margin-right:10%
+
+}
+.video-music-double{
+    width:15%;
+    margin-left:10%;
+    margin-right:10%;
+
+}
+
+.music-rotate-10-neg{
+    transform: rotate(-10deg);
+}
+
+.music-rotate-30{
+    transform: rotate(30deg);
+}
+.music-rotate-30-neg{
+    transform: rotate(-30deg);
+}
+
+.music-rotate-15{
+    transform: rotate(15deg);
+}
+.music-rotate-15-neg{
+    transform: rotate(-15deg);
+}
+
+.video-top-music{
+    display:flex;
+    margin-right:60%;
+    margin-left:7%;
+
+}
+
+.video-bottom-music{
+    display:flex;
+    margin-right:7%;
+    margin-left:60%;
+    padding-top:3%;
+
+}
+
+.member-music-note-double{
+    margin-right:7%;
+    margin-left:7%;
+    /* width:80px;
+    height: 102px; */
+    width:8%;
+
+}
+.member-music-note-single{
+    margin-right:7%;
+    margin-left:7%;
+    /* width:65px;
+    height:92px; */
+    width:8%;
+}
+
+.member-music-bottom{
+    display: flex;
+    margin-right: 10%;
+    margin-top:6%;
+}
+
+.member-top-music-note{
+    width:8%;
+}
+
+.member-music-top{
+    margin-bottom:3%;
+}
+
+.top-row{
+    display: flex;
+    padding-top:9%;
+}
+
+.bottom-row{
+    display:flex;
+}
+
+.about-music-single{
+    width: 15%;
+
+}
+
+.about-music-double{
+    width:15%;
+}
+
+.top-left-music{
+    margin-right:35%;
+}
+.bottom-left-music{
+    margin-left:25%;
+    margin-right:30%;
+}
+
+.grid-container-music{
+    display:flex;
+}
+
+.insta-music-note{
+    width:15%;
+}
+
+.insta-middle-bottom{
+    margin-left:27%;
+    margin-right:27%;
+}
+
+.insta-left-top{
+    margin-left:23%;
+    margin-right:27%;
+}
+
+.insta-music{
+    width:60%;
+    margin-left:3%;
+    padding-top:7%;
 }

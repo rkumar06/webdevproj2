@@ -38,9 +38,21 @@ function AboutUs() {
                 <br/>
 
                 <div className = "about-events-flyers">
-                    <div className = "about-events-text">
-                        <h3 className = "about-title">Events</h3>
-                        <p className = "about-event-text">We organize Welcome Back to A Cappella, Cal’s a cappella orientation, at the beginning of every semester. Hundreds of students turn out to hear 13+ a cappella groups perform. The show is always fun, and we hope you’ll come!</p>
+                    <div className = "events-text-music">
+                        <div className = "about-events-text">
+                            <h3 className = "about-title">Events</h3>
+                            <p className = "about-event-text">We organize Welcome Back to A Cappella, Cal’s a cappella orientation, at the beginning of every semester. Hundreds of students turn out to hear 13+ a cappella groups perform. The show is always fun, and we hope you’ll come!</p>
+                        </div>
+                        <div className = "events-top-music">
+                            <div className = "top-row">
+                                <img className = "about-music-double top-left-music" src = "./music_notes/pink_double.jpeg"/>
+                                <img className = "about-music-double music-rotate-30" src = "./music_notes/orange_double.png"/>
+                            </div>
+                            <div className="bottom-row">
+                                <img className = "about-music-single bottom-left-music music-rotate-15-neg" src = "./music_notes/teal_single.jpeg"/>
+                                <img className = "about-music-single music-rotate-15"src = "./music_notes/pink_single.jpeg"/>
+                            </div>   
+                        </div>
                     </div>
                     <div className = "about-flyers">
                         <div onClick = {handleLeft} className="arrow left-arrow">&#9664; </div>
@@ -68,22 +80,38 @@ function AboutUs() {
                 <div className = "about-instagram">
                     <div className = "about-insta-title">
                         <h3 className = "about-title">Follow Us</h3>
-                        <div className = "insta-grid-container">
-                        <div className="all-four-posts">
-                            <a  href="https://www.instagram.com/p/C5XV_dIrEEC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
-                                <img className = "insta-post" src="./insta_pics/retreat.jpeg" alt="First" />
-                            </a>
-                            <a  href="https://www.instagram.com/p/C3liex_vrpC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
-                                <img className = "insta-post" src="./insta_pics/newbies.jpeg" alt="Second" />
-                            </a>
-                            <a href="https://www.instagram.com/p/C2Yq2hvrEle/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
-                                <img className = "insta-post" src="./insta_pics/back.jpeg" alt="Third" />
-                            </a>
-                            <a  href="https://www.instagram.com/p/C2GQSnRv7TE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
-                                <img className = "insta-post" src="./insta_pics/audition.jpeg" alt="Fourth" />
-                            </a>
+                        <div className = "grid-container-music">
+                                <div className = "insta-grid-container">
+                                    <div className="all-four-posts">
+                                        <a  href="https://www.instagram.com/p/C5XV_dIrEEC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
+                                            <img className = "insta-post" src="./insta_pics/retreat.jpeg" alt="First" />
+                                        </a>
+                                        <a  href="https://www.instagram.com/p/C3liex_vrpC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
+                                            <img className = "insta-post" src="./insta_pics/newbies.jpeg" alt="Second" />
+                                        </a>
+                                        <a href="https://www.instagram.com/p/C2Yq2hvrEle/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
+                                            <img className = "insta-post" src="./insta_pics/back.jpeg" alt="Third" />
+                                        </a>
+                                        <a  href="https://www.instagram.com/p/C2GQSnRv7TE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
+                                            <img className = "insta-post" src="./insta_pics/audition.jpeg" alt="Fourth" />
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div className = "insta-music">
+                                    <div className="insta-music-top-row">
+                                        <img className = "insta-music-note insta-left-top music-rotate-15" src = "./music_notes/pink_single.jpeg"/>
+                                        <img className = "insta-music-note music-rotate-15-neg" src = "./music_notes/teal_double.jpeg"/>
+                                    </div>
+                                    <div className = "insta-music-bottom-row">
+                                        <img className = "insta-music-note music-rotate-15-neg" src = "./music_notes/teal_single.jpeg"/>
+                                        <img className = "insta-music-note insta-middle-bottom" src = "./music_notes/orange_double.png"/>
+                                        <img className = "insta-music-note music-rotate-30" src = "./music_notes/pink_double.jpeg"/>
+                                    </div>
+
+                                </div>
                         </div>
-                        </div>
+                        
 
                 </div>
 

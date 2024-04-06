@@ -28,6 +28,11 @@ function Videos(){
                 <h1>Our Favorite Videos</h1>
             </div>
 
+            <div className = "video-top-music">
+                <img className="video-music-double" src = "./music_notes/teal_double.jpeg"/>
+                <img className="video-music-single music-rotate-15" src = "./music_notes/orange_single.png"/>
+            </div>
+
 
             <div className = "video-wrapper">
                 <div onClick = {handleLeft} className="arrow left-arrow">&#9664; </div>
@@ -35,6 +40,11 @@ function Videos(){
                         <iframe width="980" height="552" src= {links[linksIndex]} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                          </div>
                 <div onClick = {handleRight} className="arrow right-arrow">&#9654; </div>
+            </div>
+
+            <div className= "video-bottom-music">
+                <img className="video-music-double" src = "./music_notes/pink_double.jpeg"/>
+                <img className="video-music-double music-rotate-30" src = "./music_notes/teal_double.jpeg"/>
             </div>
 
 

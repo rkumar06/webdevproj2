@@ -40,9 +40,22 @@ function Members(){
             <div className="members-title">
                 <h1>Members</h1>
             </div>
+            <div className = "member-music-top">
+                <img className = "member-top-music-note" src = "./music_notes/orange_double.png"/>
+                <img className = "member-top-music-note"src = "./music_notes/teal_single.jpeg"/>
+            </div>
             <div className="members-polaroids">
                 {isBig ? <BigPolaroid maxIndex = {memberInfo.length} major = {memberInfo[bigIndex].major} index = {bigIndex} leftFunction = {handleLeftClick} rightFunction = {handleRightClick} xFunction = {handleX} name = {memberInfo[bigIndex].name} semNote = {memberInfo[bigIndex].semNote} interests = {memberInfo[bigIndex].interests     } semBerk = {memberInfo[bigIndex].semBerk} bio = {memberInfo[bigIndex].bio} image = {memberInfo[bigIndex].image}/> : memberPolaroids}
             </div>
+
+            <div className = "member-music-bottom">
+                <img className="member-music-note-single" src = "./music_notes/pink_single.jpeg"/>
+                <img className="member-music-note-double" src = "./music_notes/teal_double.jpeg"/>
+                <img className="member-music-note-single music-rotate-15" src = "./music_notes/orange_single.png"/>
+                <img className="member-music-note-single music-rotate-10-neg" src = "./music_notes/teal_single.jpeg"/>
+                <img className="member-music-note-double music-rotate-30" src = "./music_notes/pink_double.jpeg"/>
+            </div>
+
         </div>
     )
 }
